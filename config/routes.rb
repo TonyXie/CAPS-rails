@@ -1,5 +1,9 @@
 CAPS::Application.routes.draw do
+  root 'static_pages#landing'
+  devise_for :users
+  get "uploads/index"
   get "static_pages/landing"
+  get 'uploads' => 'uploads#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

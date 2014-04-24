@@ -26,4 +26,13 @@ CAPS::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['capsscriptfiles'],
+    :access_key_id => ENV['AKIAI2FOLNLPT7VM37QA'],
+    :secret_access_key => ENV['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']
+    }
+  }
 end

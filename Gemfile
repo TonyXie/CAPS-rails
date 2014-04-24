@@ -13,6 +13,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'turbolinks'
 gem 'will_paginate', '~> 3.0'
+gem 'paperclip'
+gem 'aws-sdk'
 
 group :development do 
   gem "better_errors"

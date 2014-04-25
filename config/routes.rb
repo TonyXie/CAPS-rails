@@ -1,4 +1,5 @@
 CAPS::Application.routes.draw do
+  devise_for :admins
   root 'static_pages#landing'
   devise_for :users
   get "uploads/index"

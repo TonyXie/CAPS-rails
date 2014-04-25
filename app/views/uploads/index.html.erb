@@ -20,7 +20,7 @@
         </tr>
       </table>
 
-      <%= form_for @admin, do |f| %>
+      <%= form_for(@users) do |f| %>
         <%= f.label :script %>
         <%= f.file_field :script %>
         <%= f.submit 'Upload csv', :class => 'btn btn-primary' %>

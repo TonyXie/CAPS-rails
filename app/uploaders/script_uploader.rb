@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-class FileUploader < CarrierWave::Uploader::Base
+class ScriptUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick

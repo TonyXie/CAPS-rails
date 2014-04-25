@@ -15,6 +15,8 @@ gem 'turbolinks'
 gem 'will_paginate', '~> 3.0'
 gem 'paperclip'
 gem 'aws-sdk'
+gem 'rmagick'
+gem 'carrierwave'
 
 group :development do 
   gem "better_errors"
